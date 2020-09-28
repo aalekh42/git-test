@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!--nav-bar-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Atos Syntel</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+   
+  </div>
+</nav>
+
+<style>
+body  {
+  background-image: url("bg.jpg");
+}
+.hello{
+  border-style: outset;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  border: 3px solid black;
+}
+.heading{
+  font-family:Century;
+}
+.form-group{
+font-family:Century;
+}
+.loginhere{
+font-family:Century;
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+<div class="container hello">
+  <h3 class="heading" align="center">REGISTER HERE</h3>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Employee id:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter employee id" name="email">
+    </div>
+	<div class="form-group">
+      <label for="email">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter name" name="email">
+    </div>
+	<div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+	<div class="form-group">
+      <label for="email">Vertical:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter vertical" name="email">
+    </div>
+	<div class="form-group">
+      <label for="email">Role:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter role" name="email">
+    </div>
+	<div class="form-group">
+      <label for="email">Skillset:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter skillset" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+	<div class="text-center">
+    <button type="submit" class="btn btn-primary center">Sign Up</button>
+	</div><br>
+  </form>
+  <p class="loginhere">
+    Have already an account ? <a href="#" class="loginhere-link">Login here</a>
+   </p>
+</div>
+
+</body>
+</html>
